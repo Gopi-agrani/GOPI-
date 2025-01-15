@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#maindiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.search-input {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 20px 0px 0px 20px ;
+    outline: none;
+}
+
+.search-button {
+    padding: 10px;
+    width: 40px;
+    height: 37px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #f8f8f8;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.search-button:hover {
+    background-color: #e1e1e1;
+}
+
+#youtube{
+    width: 120px;
+    height: 80px;
+}
+
+img#line{
+    width: 20px;
+}
+button#user{
+    width: 120px;
+    height: 37px;
+    border-radius: 40px;
+    border: 1px solid rgb(201, 201, 201);
+    background-color: #ffffff;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+img#user{
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+span{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+button#dot{
+    width: 37px;
+    height: 37px;
+    border-radius: 20px;
+    border: 1px solid rgb(201, 201, 201);
+    cursor: pointer;
+}
+#dot{
+    width: 25px;
+    margin-top: 5px;
+}
