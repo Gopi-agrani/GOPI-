@@ -1,0 +1,96 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+nav {
+	display: flex;
+	align-items: flex;
+	justify-content: flex-end;
+	margin-right: 30px;
+	margin-top: 14px;
+}
+nav a {
+	font-size: 13px;
+	display:flex;
+	line-height:30px;
+	font-weight: 400;
+	color: rgb(0,0,0, 0.87);
+	cursor: pointer;
+	padding: 5px 6.7px
+}
+nav img {
+	width: 34px;
+	padding: 5px;
+	margin: auto 7px;
+	cursor: pointer;
+}
+nav img:hover {
+	opacity: .5;
+}
+nav button {
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	outline: none;
+	background: #4285f4;
+	color: #fff;
+	padding: 7px 12px;
+	border-radius: 3px;
+	margin-left: 7px;
+	cursor: pointer;
+}
+
+.search .logo{
+	display: block;
+	margin: 0px auto;
+	margin-top: 107px;
+}
+.s-box {
+	width: 580px;
+	margin: 0px auto;
+	position: relative;
+	margin-top: -8px;
+	text-align: center;
+}
+.s-input {
+	display: block;
+	border: 1px solid #ddd;
+	color: rgba(0,0,0, 0.87);
+	font-size: 16px;
+	padding: 13px;
+	padding-left: 45px;
+	border-radius: 25px;
+	width: 100%;
+	transition: box-shadow 100ms;
+	outline: none;
+}
+.s-box .search-icon {
+	width: 25px;
+	opacity: .6;
+	position: absolute;
+	top: 12px;
+	left: 14px;
+}
+.s-box .vs-icon {
+	width: 25px;
+	position: absolute;
+	top: 12px;
+	right: 70px;
+}
+
+.logo{
+    width: 200px;
+}
+.psearch{
+    width: 20px;
+	position: absolute;
+	top: 12px;
+	right: 20px;
+}
