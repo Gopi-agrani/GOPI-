@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: linear-gradient(blue, white) fixed;
+    border: 4px;
+    align-items: center;
+    display: flex;
+
+}
+
+fieldset{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+    left: 30%;
+}
+
+label{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    width: 270px;
+    height: 20px;
+    border-radius: 50px;
+    border: 1px white;
+    background: linear-gradient(rgb(255, 255, 255), blue )
+}
+
+select{
+    font-style:italic;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    width: 400px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px white;
+    background: linear-gradient(rgb(255, 255, 255), blue )
+}
