@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+.input{
+    width: 950px;
+    height: 40px;
+    background-color: rgb(255, 235, 216);
+    border: 1.5px solid rgb(255, 187, 123);
+    border-radius: 8px;    
+}
+
+input{
+    font-weight:700;
+    font-size:smaller;
+}
+
+.input2{
+    width: 1900px;
+    height: 40px;
+    background-color: rgb(255, 235, 216);
+    border: 1.5px solid rgb(255, 187, 123);
+    border-radius: 8px;
+}
+
+#selection{
+    width: 950px;
+    height: 40px;
+    background-color: rgb(255, 235, 216);
+    border: 1.5px solid rgb(255, 187, 123);
+    border-radius: 8px; 
+    opacity: .8;
+}
+
+#input{
+    
+}
